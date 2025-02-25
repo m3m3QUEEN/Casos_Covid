@@ -1,2 +1,6 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+print(" Celsius ( C ) | Fahrenheit ( F )")
+print(" ----------------------------")
+
+for celsius in range(0, 101, 10):
+    fahrenheit = (celsius * 9 / 5) + 32
+    print(f"{celsius:^13} | {fahrenheit:^15.1f}")
